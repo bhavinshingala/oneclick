@@ -3,6 +3,8 @@ import 'package:oneclick_webearl_interview_project/widgets/bottom_screen.dart';
 import 'package:sizer/sizer.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+
   runApp( Sizer(
     builder: (context, orientation, deviceType) {
       return const MyApp();
